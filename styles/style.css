@@ -1,11 +1,280 @@
 /* Font  */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
 
+
 /* Basic Typography */
+
 *{
     margin: 0;
     padding: 0;
 }
 body{
     font-family: 'Noto Sans JP', sans-serif;
+}
+.button{
+    display: flex;
+    align-items: center;
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    color: white;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: #fd035e;
+}
+a{
+    text-decoration: none;
+}
+
+
+/*--------- Header and top section started ---------*/
+
+.head-top-wrapper{
+    background-color: #2D25A0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* --------------Header Section-------------- */
+
+.header{
+    margin: 45px 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-for-mobile{
+    display: none;
+}
+.nav-for-pc ul{
+    display: flex;
+}
+.nav-for-pc ul li{
+    list-style: none;
+}
+.nav-for-pc ul li a{
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    padding-right: 36px;
+}
+.nav-for-pc ul li:hover a{
+    text-decoration: underline;
+}
+
+.login-button .fa-sign-in-alt{
+    margin-right: 8px;
+}
+
+.login-button h3{
+    font-weight: 500;
+    font-size: 16px;
+}
+
+
+/* --------------Top Section--------------  */
+
+.main-section{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin-bottom: 86px;
+}
+.title-button{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
+.title-button> h1{
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 70px;
+    color: white;
+}
+.watch-button{
+    margin-top: 27px;
+    width: 130px;
+    justify-content: space-between;
+}
+.banner{
+    width: 40%;
+}
+.banner img{
+    width: 100%;
+}
+/*----------- Header and top section Ended ----------*/
+
+
+
+/* -----------Top Player Section---------------  */
+
+.players-section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.players-title{
+    margin: 50px 0 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.players-title h1{
+    font-weight:bolder;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+.players-title p{
+    letter-spacing: 3px;
+}
+.all-players{
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    align-items: center;
+}
+.single-player{
+    border-radius: 5px;
+    min-height: 474px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.single-player img{
+    width: 100%;
+    height: 256px;
+}
+.single-player h2{
+    font-weight: bold;
+    font-size: 28px;
+    color: #18191F;
+    margin: 16px 0 10px 0;
+}
+.single-player p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+
+/* -------------Hero Section--------------  */
+
+.hero-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px 0;
+}
+.hero-title{
+    margin-bottom: 30px;
+}
+.hero-title h1{
+    font-size:xx-large;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px 2px #646464;
+}
+.heros{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+.hero{
+    width: 45%;
+    height: 255px;
+    border: 2px solid gray;
+    position: relative;
+    overflow: hidden;
+}
+.hero-cover img{
+    width: 100%;
+    height: 255px;
+}
+.hero-details{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    padding: 20px 0 0 20px;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.363);
+}
+.hero:hover .hero-details{
+    display: block;
+}
+.hero-details h2,.hero-details h3,.hero-details p{
+    color: honeydew;
+    margin-bottom: 20px;
+    width: 90%;
+}
+
+
+/* --------------Highlight Section-------------  */
+
+.highlight-wrapper{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heighlight-section{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    align-items: center;
+    margin-bottom: 86px;
+}
+.highlight-hedding-button{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+.highlight-hedding-button> h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.highlight-hedding-button p{
+    width: 80%;
+    margin-top: 8px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+}
+
+
+/* -------------Footer Section-----------  */
+
+.footer-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 66px;
+}
+.footer-img img{
+    width: 483px;
+}
+.social-icons{
+    margin: 20px 0;
+}
+.icons{
+    background-color: #E7E7E8;
+    padding: 8.5px;
+    border-radius: 50%;
+    color: #969BAB;
+    margin: 0 7px;
+}
+.copyright p{
+    font-size: 18px;
+    color: #000000;
 }
