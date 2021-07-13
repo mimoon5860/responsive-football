@@ -1,0 +1,11 @@
+/* Font  */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@700&display=swap');
+
+/* Basic Typography */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Noto Sans JP', sans-serif;
+}
