@@ -1,0 +1,107 @@
+@media only screen and (max-width: 688px) {
+
+    /* Typography */
+    .title-h1{
+        margin-bottom: 0;
+    }
+
+    /* Header Section  */
+    .header{
+        width: 100%;
+        padding: 0 20px;
+    }
+    .nav-for-pc{
+        display: none;
+    }
+    .nav-for-mobile{
+        margin-left: 20px;
+        display: block;
+        font-size: 35px;
+        color: white;
+    }
+    .login-button{
+        margin-right: 20px;
+    }
+    /* Top Section  */
+    .main-section{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+    .title-button{
+        margin-left: 20px;
+        width: 90%;
+    }
+    .title-button> h1{
+        font-size: 50px;
+    }
+    .banner{
+        width: 90%;
+        margin-top: 50px;
+    }
+
+    /* Top Player section  */
+    .all-players{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .single-player{
+        margin: 0 20px;
+    }
+    .single-player img{
+        width: 100%;
+        height: 60%;
+    }
+
+    /* Hero Section  */
+    
+    .heros{
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px;
+    }
+    .hero{
+        margin-top: 20px;
+        width: 90%;
+        height: 255px;
+        border: 2px solid gray;
+        position: relative;
+        overflow: hidden;
+    }
+
+    /* Highlight Section  */
+    .heighlight-section{
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        margin-bottom: 86px;
+    }
+    .highlight-hedding-button{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        padding: 0 10px;
+    }
+
+    /* copa cup section  */
+    .all-copa{
+        width: 90%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+    }
+
+    /* Footer Section  */
+    .footer-section{
+        padding: 60px 0;
+    }
+    .footer-img img{
+        width: 80%;
+    }
+}
