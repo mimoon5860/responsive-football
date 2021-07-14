@@ -142,6 +142,7 @@ a{
 }
 .players-title p{
     letter-spacing: 3px;
+    text-align: center;
 }
 .all-players{
     width: 70%;
@@ -153,6 +154,7 @@ a{
 .single-player{
     border-radius: 5px;
     min-height: 474px;
+    max-height: 500px;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -160,7 +162,7 @@ a{
 }
 .single-player img{
     width: 100%;
-    height: 256px;
+    height: 40%;
 }
 .single-player h2{
     font-weight: bold;
