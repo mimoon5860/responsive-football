@@ -43,8 +43,8 @@
         width: 90%;
     }
     .title-button> h1{
-        font-size: 30px;
-        line-height: 40px;
+        font-size: 40px;
+        line-height: 50px;
     }
     .banner{
         width: 90%;
@@ -179,9 +179,12 @@
     .main-section{
         width: 95%;
     }
+    .title-button{
+        width: 40%;
+    }
     .title-button> h1{
-        font-size: 30px;
-        line-height: 50px;
+        font-size: 50px;
+        line-height: 60px;
         color: white;
     }
 
