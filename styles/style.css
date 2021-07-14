@@ -153,8 +153,7 @@ a{
 }
 .single-player{
     border-radius: 5px;
-    min-height: 474px;
-    max-height: 500px;
+    min-height: 500px;
     padding: 15px;
     display: flex;
     flex-direction: column;
