@@ -1,11 +1,19 @@
+/* ---↓-↓-↓-↓-Media Quary For Mobile Responsive Started-↓-↓-↓-↓--- */
+
 @media only screen and (max-width: 688px) {
 
-    /* Typography */
+
+   /* ---↓-↓-↓-↓-Basic Typography-↓-↓-↓-↓--- */
+
     .title-h1{
         margin-bottom: 0;
     }
 
-    /* Header Section  */
+
+/* ---↓-↓-↓-Header and top section started-↓-↓-↓--- */
+
+    /* ---↓-↓-↓-↓-Header Section-↓-↓-↓-↓--- */
+
     .header{
         width: 100%;
     }
@@ -21,7 +29,10 @@
     .login-button{
         margin-right: 20px;
     }
-    /* Top Section  */
+
+
+  /* ---↓-↓-↓-↓-Top Section-↓-↓-↓-↓--- */
+
     .main-section{
         width: 100%;
         flex-direction: column;
@@ -38,8 +49,11 @@
         width: 90%;
         margin-top: 50px;
     }
+/* ---↑-↑-↑-↑-Header and top Section Ended-↑-↑-↑-↑--- */
 
-    /* Top Player section  */
+
+ /* ---↓-↓-↓-↓-Top Players Section-↓-↓-↓-↓--- */
+
     .all-players{
         width: 100%;
         display: grid;
@@ -56,7 +70,8 @@
         height: 60%;
     }
 
-    /* Hero Section  */
+
+/* ---↓-↓-↓-↓-Hero Section-↓-↓-↓-↓--- */
     
     .heros{
         display: flex;
@@ -74,7 +89,11 @@
         overflow: hidden;
     }
 
-    /* Highlight Section  */
+
+    /* ---↓-↓-↓-↓-Heighlight & Copa Cup Section Started Here-↓-↓-↓-↓--- */
+
+    /* ---↓-↓-↓-↓-Heighlight section-↓-↓-↓-↓--- */
+
     .heighlight-section{
         flex-direction: column;
         width: 100%;
@@ -88,7 +107,9 @@
         padding: 0 10px;
     }
 
-    /* copa cup section  */
+
+ /* ---↓-↓-↓-↓-Copa Cup section-↓-↓-↓-↓--- */
+
     .all-copa{
         width: 90%;
         display: grid;
@@ -96,7 +117,11 @@
         grid-gap: 30px;
     }
 
-    /* Footer Section  */
+/* ---↑-↑-↑-↑-Heighlight & Copa Cup Section Ended Here-↑-↑-↑-↑--- */
+
+
+/* ---↓-↓-↓-↓-Footer Section-↓-↓-↓-↓--- */
+
     .footer-section{
         padding: 60px 0;
     }
@@ -104,3 +129,18 @@
         width: 80%;
     }
 }
+
+/* ---↑-↑-↑-↑-Media Quary For Mobile Responsive Ended-↑-↑-↑-↑--- */
+
+
+
+/* ---↓-↓-↓-↓-Media Quary For Tab Responsive Started-↓-↓-↓-↓--- */
+
+@media only screen and (min-width:688px) and (max-width:992px)  {
+    
+}
+
+/* ---↑-↑-↑-↑-Media Quary For Tab Responsive Ended-↑-↑-↑-↑--- */
+
+
+/* ----------T H E   E N D   C S S---------- */
